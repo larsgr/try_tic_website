@@ -1,0 +1,16 @@
+---
+title: "Index file"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+```
+
+## R Markdown
+
+Here is a plot:
+
+```{r cars}
+ggplot(cars, aes(x=speed,y=dist)) + geom_point()
+```
